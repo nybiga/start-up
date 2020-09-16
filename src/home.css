@@ -1,0 +1,70 @@
+.home1{
+    background: url('./img/home1.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+    margin-top: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.home2{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.home3-p{
+    font-size: 25px;
+}
+
+.home3-right{
+    height: 650px;
+}
+
+.home3-right img{
+ padding-top: 25px;
+ padding-left: 45px;
+}
+
+.home4{
+    height: 700px;
+}
+
+.home4-cont{
+    padding-top: 100px;
+}
+
+.home4-img{
+    height: 500px;
+    width: 500px;
+}
+
+.arrow{
+    padding-top: 8px;
+}
+
+.home5{
+    background: url('./img/home5.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 450px;
+}
+
+.home5-text{
+    margin-top: 150px;
+    margin-left: 120px;
+}
+
+.home6{
+    height: 300px;
+}
+
+.menu{
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 670px){
+    .home1{
+        min-height: 500px;
+    }
+}
