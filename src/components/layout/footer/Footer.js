@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="center">
             <div className="row">
                 <div className="col l3 s12">
-                    <li><Link><img src={Logo} alt='Logo' className="logo-img"/></Link></li>
+                    <li><Link><img src={Logo} alt='Logo' className="foot-logo" height='100px'/></Link></li>
                     <li>
                         <Link to="" className="">
                             <FaFacebookF className="grey-text social"/>
