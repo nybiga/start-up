@@ -50,30 +50,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="home4 green lighten-4">
-                <div className="container home4-cont">
-                    <div className="row">
-                        <div className="col l9 s12">
-                            <div class="card horizontal">
-                                <div class="home4-img">
-                                    <img src={home4} alt='know us' />
-                                </div>
-                                <div class="card-stacked">
-                                    <div class="card-content">
-                                        <span class="card-title">Get to know us</span>
-                                        <p>
-                                            Startup Accra is the best place for you to be.
-                                            With a vast network of industry experts, mentors
-                                            and investors, you're on your way to bulging a business
-                                            that scales.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
             <div className="home5">
                 <div className="container">
                     <div className="row">
