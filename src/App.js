@@ -1,19 +1,15 @@
-import React, { Component } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import Navbar from './components/layout/navbar/Navbar'
-import Footer from './components/layout/footer/Footer'
-import Home from './components/pages/Home'
+import React, { Component } from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Home from "./components/pages/Home";
+import Register from "./components/pages/Register";
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <div className="App">
-          <Navbar />
-          <Switch>
-            <Route exact path='/' component={ Home } />
-          </Switch>
-          <Footer />
+          <Route exact path="/" render={() => <Home />} />
+          {/* <Route exact path="/register" render={() => <Register />} /> */}
         </div>
       </BrowserRouter>
     );

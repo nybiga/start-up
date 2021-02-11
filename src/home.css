@@ -1,70 +1,357 @@
-.home1{
-    background: url('./img/home1.png');
-    background-size: cover;
-    background-position: center;
-    min-height: 800px;
-    margin-top: 15px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-.home2{
-    padding-top: 0px;
-    margin-top: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-.home3-p{
-    font-size: 25px;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-.home3-right{
-    height: 650px;
+header {
+  /* background: black; */
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+nav ul li a {
+  color: gray;
+}
+i.icon-black {
+  color: black;
+}
+nav {
+  background: transparent;
+  flex: 2;
+  display: flex;
+  height: inherit;
+  box-shadow: none;
 }
 
-.home3-right img{
- padding-top: 25px;
- padding-left: 45px;
+.nav-link {
+  margin-left: 40px;
+  padding-left: 20px;
 }
 
-.home4{
-    height: 700px;
+.home-image-text h3 {
+  margin-top: 130px;
 }
 
-.home4-cont{
-    padding-top: 100px;
+.brand-logo {
+  flex: 1;
 }
 
-.home4-img{
-    height: 500px;
-    width: 500px;
+.nav-last {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding-left: 130px;
+  /* justify-content: space-evenly; */
+}
+.nav-cta {
+  border: 2px solid transparent;
+  background: #3ab675;
+  color: white;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: inherit;
+  line-height: 28px;
 }
 
-.arrow{
-    padding-top: 8px;
+.nav-cta-login {
+  margin-left: 10px;
+  border: 0px solid transparent;
+  background: transparent;
+  color: #9e9e9e;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: inherit;
+  line-height: 28px;
 }
 
-.home5{
-    background: url('./img/home5.png');
-    background-size: cover;
-    background-position: center;
-    min-height: 450px;
+.home1 {
+  background: url("./img/home1.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 800px;
+  margin-top: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
-.home5-text{
-    margin-top: 150px;
-    margin-left: 120px;
+.home2 {
+  /* display: flex; */
+  position: relative;
+  align-self: center;
+  padding-top: 0px;
+  margin-top: 0px;
+  background: #30b56f;
+  height: 172px;
+}
+.home2-background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+.home2-background2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+.home2-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: inherit;
 }
 
-.home6{
-    height: 300px;
+.home2-first-element {
+  flex: 1;
+  align-self: center;
+  text-align: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+  z-index: 3;
 }
 
-.menu{
-    padding-top: 15px;
+.home2-second-element {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* label focus color */
+.input-field input[type="text"]:focus + label {
+  color: #000;
+  border-bottom: 1px solid white;
+}
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 #000;
+}
+.home2-third-element {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.home2-third-element button {
+  width: 242px;
+  height: 52px;
+  background: #2b985f;
+  border: 0px solid transparent;
+  color: white;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
 }
 
-@media screen and (max-width: 670px){
-    .home1{
-        min-height: 500px;
-    }
+.home2-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: inherit;
+}
+
+.home3 {
+  height: 700px;
+}
+
+.home3-container {
+  display: flex;
+}
+.home3-left {
+  flex: 1;
+  align-items: center;
+  padding-top: 30px;
+  height: 700px;
+}
+
+.home3-left h3 {
+  font-weight: 700;
+  font-size: 48px;
+}
+.home3-second-element {
+  width: 500px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-size: 48px;
+}
+
+.home3-right {
+  flex: 1;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.home3-right img {
+  float: right;
+}
+
+.home3-p {
+  font-size: 25px;
+}
+
+.home3-right {
+  display: flex;
+  width: 50%;
+  max-height: 650px;
+  align-items: center;
+}
+
+.home3-container {
+  padding-left: 50px;
+}
+
+.home3-right img {
+  padding-left: 160px;
+  width: 100px;
+  max-height: 50%;
+}
+
+.home4 {
+  height: 700px;
+}
+
+.home4-cont {
+  padding-top: 100px;
+}
+
+.home4-img {
+  height: 500px;
+  width: 500px;
+}
+
+.arrow {
+  padding-top: 8px;
+}
+
+.home5 {
+  background: url("./img/home5.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 450px;
+}
+
+.home5-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 450px;
+  align-items: center;
+}
+
+.home5-container h1 {
+  margin: auto;
+  font-weight: bold;
+  color: white;
+}
+
+.home5-text {
+  margin-top: 150px;
+  margin-left: 120px;
+}
+
+.home6 {
+  height: 300px;
+}
+
+.menu {
+  padding-top: 15px;
+}
+
+input:not([type]),
+input[type="text"]:not(.browser-default),
+input[type="password"]:not(.browser-default),
+input[type="email"]:not(.browser-default) {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  outline: none;
+  height: 3rem;
+  width: 100%;
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+
+.home7 {
+  position: relative;
+  height: 500px;
+  background: #e5f8ee;
+}
+
+.home7-container {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  align-items: center;
+}
+
+.home7-left {
+  width: 612px;
+  height: 377px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  align-items: center;
+  background-image: url("./img/home4.png");
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-position: right;
+}
+
+.home7-background {
+  position: absolute;
+  height: 441px;
+  right: 0;
+  top: 0;
+}
+
+.home7-right {
+  background: white;
+  float: left;
+  height: 300px;
+  z-index: 1000;
+  width: 600px;
+  text-align: center;
+  padding: 20px 50px;
+}
+
+.home7-right h4 {
+  font-weight: bold;
+  color: #5c5c5c;
+}
+
+.home7-first-element {
+  text-align: left;
+}
+
+.home7-second-element {
+  text-align: left;
+}
+.home7-third-element {
+  text-align: left;
+  margin-top: 20px;
+}
+.home7-p {
+  font-size: 20px;
+}
+@media screen and (max-width: 670px) {
+  .home1 {
+    min-height: 500px;
+  }
 }

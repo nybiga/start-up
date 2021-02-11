@@ -22,7 +22,7 @@ const Footer = () => {
                         </Link>
                     </li>
                 </div>
-                <div class="col l2 offset-l1 s12">
+                <div class="col l2 offset-l1 s12" style={{textAlign:"left"}}>
                     <h5 class="black-text">Quick Links</h5>
                     <ul>
                         <li><Link to='' className='grey-text'>Join US</Link></li>
@@ -32,7 +32,7 @@ const Footer = () => {
                         <li><Link to='' className='grey-text'>Events</Link></li>
                     </ul>
                 </div>
-                <div class="col l2 offset-l1 s12">
+                <div class="col l2 offset-l1 s12" style={{textAlign:"left"}}>
                     <h5 class="black-text">Contact</h5>
                     <ul>
                         <li><Link to='' className='grey-text'>1st floor HQ</Link></li>
